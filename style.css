@@ -25,3 +25,15 @@ body{
     color: slateblue;
 }
 
+#meal-display {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+}
+.food-item {
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
+
+

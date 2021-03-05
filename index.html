@@ -23,12 +23,17 @@
     <section>
         <form class="col-md-6 m-auto py-5">
             <div class="input-group mb-3">
-                <input id="inputValue" type="text" class="form-control" placeholder="Search Meal">
+                <input id="input-Value" type="text" class="form-control" placeholder="Search Meal">
                 <div class="input-group-append">
-                    <button id="submit-button" type="button" class="btn btn-danger">Search</button>
+                    <button onclick="searchMeal()" id="submit-button" type="button" class="btn btn-danger">Search</button>
                 </div>
             </div>
         </form>
     </section>
+    <section>
+        <div id="meal-display"></div>
+    </section>
+
+    <script src="app.js"></script>
 </body>
 </html>
