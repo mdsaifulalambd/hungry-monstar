@@ -34,6 +34,25 @@ body{
     border-radius: 5px;
     padding: 20px;
     text-align: center;
+
+}
+
+.select-food {
+    width: 500px;
+    padding: 30px;
+    height: auto;
+    margin: auto;
+    background-color: gray;;
+    color: white;
+    border-radius: 25px;
+}
+.select-food img {
+    width: 400px;
+    background-color: wheat;
+    border-radius: 10px;
+}
+.select-food li {
+    list-style: none;
 }
 
 
